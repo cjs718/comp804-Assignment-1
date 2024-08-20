@@ -1,0 +1,384 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Exercise 2 </title>
+	<script>
+	
+
+		//Task 4: your javascript code for task 4 should be below the comment
+		
+		function cat() {
+			var image = document.getElementById("imageDisplay");	// get the span element
+			var buttonClickedSpan = document.getElementById("buttonClicked");
+			var textDisplaySpan = document.getElementById("textDisplay");
+			buttonClickedSpan.innerText = 'The Cat Button is clicked';	
+			textDisplaySpan.innerText = 'User clicked Cat'
+			image.src = "cat.jpg";  								// show dog
+			}
+
+		function dog() {
+			var image = document.getElementById("imageDisplay");	// get the span element
+			var buttonClickedSpan = document.getElementById("buttonClicked");
+			var textDisplaySpan = document.getElementById("textDisplay");
+			textDisplaySpan.innerText = 'User clicked Dog'
+			buttonClickedSpan.innerText = 'The Dog Button is clicked';	
+			image.src = "dog.jpg";  								// show dog
+			}
+		
+		function frog() {
+			var image = document.getElementById("imageDisplay");	// get the span element
+			var buttonClickedSpan = document.getElementById("buttonClicked");
+			var textDisplaySpan = document.getElementById("textDisplay");
+			textDisplaySpan.innerText = 'User clicked Frog'
+			buttonClickedSpan.innerText = 'The Frog Button is clicked'; 
+			image.src = "frog.png";									// show frog
+		}
+		
+		
+		//Task 5: your javascript code for task 5 should be below the comment
+		
+    </script>
+	
+	<style> 
+		/* header styling */
+		.header {
+			background-color: grey;
+			border-radius: 15px;
+			padding: 20px;
+			width: fit-content;
+			margin: auto;
+        }
+        /* Text styles */
+        .number-name {
+            font-weight: bold;
+			font-family: Arial, Helvetica, sans-serif;
+			color: darkblue;
+        }
+        .course-title {
+            font-size: large;
+			font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+			color: blue;
+        }
+        .assignment-info {
+            font-size: small;
+			font-family: Arial, Helvetica, sans-serif;
+			color: lightblue;
+        }
+
+			
+        /* Table styling */
+		table {
+            width: 80%;
+            border-collapse: collapse;
+            border: 1px solid black;
+			margin-left: auto;
+			margin-right: auto;
+			
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: yellow;
+			font-weight: bold;
+        }
+        /* Alternate row background color */
+        tr:nth-child(even) {
+            background-color: grey;
+			color: lightblue;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+		tr:nth-child(odd) {
+            background-color: beige;
+			color: green;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+		.td2 {
+			text-align: center; 
+			align-items: center;
+		}
+
+		button:hover {
+			background-color:yellow;
+		}
+
+		button:focus {
+			border-color: blue;
+		}
+
+	</style>
+	
+</head>
+<body>
+	<!-- html code for task 1 -->
+	<div class="header" style="text-align: center;">
+        <h1 class="number-name">9073115 Christian Suarez</h1>
+        <h2 class="course-title">COMP804: Web Security</h2>
+        <h3 class="assignment-info">Assignment 1, due at the end of Week 5</h3>
+    </div>
+	<br><br>
+	
+    <!-- html code for task 2 -->
+		<table style="border: dotted;S" >
+		<thead style=>
+			<th style="width: 75%;">Activity</th>
+			<th style="width: 25%;">Date</th>		
+		</thead>
+		<tbody>
+		<tr>
+			<td>First day to enrol for re-enrolling (continuing students)</td>
+			<td>20 Nov 2023</td>
+		</tr>
+		<tr>
+			<td>First day to enrol for new students (commencing students)</td>
+			<td>04 Dec 2023</td>
+		</tr >
+		<tr>
+			<td>Orientation</td>
+			<td>
+				<p>19 Feb - 22 Feb 2024</p>
+				<p>Further information is available on <a href="https://www.uow.edu.au/student/get-started/orientation/" target="new">Get Started</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td>Lectures Commence (weeks 1-7)</td>
+			<td>26 Feb - 12 Apr 2024</td>
+		</tr>
+		<tr>
+			<td>Last day to enrol / add subjects yourself</td>
+			<td>08 Mar 2024</td>
+		</tr>
+		<tr>
+			<td>Last day to enrol / add subjects with Head of Students approval (extenuating circumstances only)</td>
+			<td>15 Mar 2024</td>
+		</tr>
+		<tr>
+			<td>
+				<p><strong>CENSUS DATE</strong></p>
+				<ul>
+				<li>Fees due</li>
+				<li>Last day to withdraw from subject/s without paying for them</li>
+				<li>HECS / FEE HELP debt reporting date</li>
+				<li>Last day to change HECS / FEE HELP billing option</li>
+				</ul>
+				<p><a href="https://uowedu.service-now.com/kb?id=kb_article_view&amp;sysparm_article=KB0012659" target="new">Learn more about Census date &gt;</a></p>
+			</td>
+			<td>
+				<div>31 Mar 2024</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div>Student Services and Amenities Fees Due</div>
+			</td>
+			<td>01 Apr 2024</td>
+		</tr>
+		<tr>
+			<td>Last day to withdraw without academic penalty - subject deleted from record
+				<p>Fail grade recorded if subject withdrawn after this date</p>
+			</td>
+			<td>03 May 2024</td>
+		</tr>
+		<tr>
+			<td>Mid-Session Recess (1 week)</td>
+			<td>15 Apr - 19 Apr 2024</td>
+		</tr>
+		<tr>
+			<td>Lectures Recommence (weeks 8-13)</td>
+			<td>22 Apr - 31 May 2024</td>
+		</tr>
+		<tr>
+			<td>Study Recess (1 week)</td>
+			<td>03 Jun - 07 Jun 2024</td>
+		</tr>
+		<tr>
+			<td>Exams (2 weeks)</td>
+			<td>08 Jun - 20 Jun 2024</td>
+		</tr>
+		<tr>
+			<td>Mid-Year Recess / End of session break (4 weeks)</td>
+			<td>24 Jun - 19 Jul 2024</td>
+		</tr>
+		<tr>
+			<td>Release of Results</td>
+			<td>04 Jul 2024</td>
+		</tr>
+		<tr>
+			<td><span>Supplementary&nbsp;and deferred exam period</span></td>
+			<td>15 Jul - 19 Jul 2024</td>
+		</tr>
+		</tbody>
+		</table>
+	
+	<p> </p>
+		
+	<!-- html code for task 3  -->
+	<table>
+        <thead>
+            <tr>
+                <th style="width: 25%;">Name</th>
+                <th style="width: 75%;">Web Attacks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td2">
+					SQL Injection <br><br>
+					<img src="sqlInjection.png" style="max-width: 90%;">
+				</td>
+                <td>
+                    SQL Injection is a type of attack where malicious SQL queries are injected into input fields to manipulate databases. It can lead to data leaks or unauthorized access.
+                    <br><br>
+                    Learn more: <a href="https://www.tripwire.com/" target="_blank" rel="noopener noreferrer">Tripwire</a>
+                    <br>
+                    Source: <a href="https://securitytutorials.co.uk" target="_blank" rel="noopener noreferrer">Security Tutorials</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="td2">
+					Cross-Site Scripting (XSS) <br><br>
+					<img src="crossSiteScripting.png" style="max-width: 90%;">
+				</td>
+                <td>
+                    XSS allows attackers to inject malicious scripts into web pages viewed by other users. It can steal sensitive information or perform actions on behalf of the victim.
+                    <br><br>
+                    Learn more: <a href="https://websitesecuritystore.com" target="_blank" rel="noopener noreferrer">Website Security Store</a>
+                    <br>
+                    Source: <a href="https://websitesecuritystore.com/" target="_blank" rel="noopener noreferrer">Website Security Store</a>
+                </td>
+            </tr>
+            <!-- Add more rows for other attacks -->
+			<tr>
+                <td class="td2">
+					Broken Authentication <br><br>
+					<img src="broken_authentication.png" style="max-width: 90%;">
+				</td>
+                <td>
+                    This type of web attack can be executed in many ways: Brute force, Credential stuffing, Dictionary attacks, And more. Usually preventable with strong passwords and/or MFA
+                    <br><br>
+                    Learn more: <a href=https://auth0.com/blog/what-is-broken-authentication/ target="_blank" rel="noopener noreferrer">What is broken Authentication</a>
+                    <br>
+                    Source: <a href="https://auth0.com/" target="_blank" rel="noopener noreferrer">Auth0 by Okta</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2">
+					Drive-By Download<br><br>
+					<img src="DRIVE-BY-DOWNLOAD-2.png" style="max-width: 90%;">
+				</td>
+                <td>
+                    Drive-by downloads occur when a user visits a website and a malicious agent downloads onto the victim's computer automatically. It can happen when the user is downloading something else or upon opening an email, clicking a pop-up window, or merely visiting a page.
+                    <br><br>
+                    Learn more: <a href="https://www.kaspersky.com/resource-center/definitions/drive-by-download" target="_blank" rel="noopener noreferrer">What is a Drive by Download</a>
+                    <br>
+                    Source: <a href="https://www.kaspersky.com/resource-center/" target="_blank" rel="noopener noreferrer">Kaspersky</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2">
+					Fuzzing<br><br>
+					<img src="Fuzzing.png" style="max-width: 90%;">
+				</td>
+                <td>
+                    Works by initially inputting a large amount of random data (fuzz) into an application to get it to crash. The next step is using a fuzzer software tool to identify the weak spots. If there are any loopholes in the target's security, the attacker can further exploit it.
+                    <br><br>
+                    Learn more: <a href="https://owasp.org/www-community/Fuzzing" target="_blank" rel="noopener noreferrer">Fuzzing</a>
+                    <br>
+                    Source: <a href="https://owasp.org/www-community/" target="_blank" rel="noopener noreferrer">OWASP Community</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2">
+					Distributed Denial-of-Service(DDoS)<br><br>
+					<img src="DDoS.jpg" style="max-width: 90%;">
+				</td>
+                <td>
+                    The aim of DDoS attacks is to overwhelm the target's web server with requests, making the site unavailable for other visitors. A botnet usually creates a vast number of requests, which are distributed among previously infected computers.XSS allows attackers to inject malicious scripts into web pages viewed by other users. It can steal sensitive information or perform actions on behalf of the victim.
+                    <br><br>
+                    Learn more: <a href="https://www.ibm.com/topics/ddos" target="_blank" rel="noopener noreferrer">What is a DDoS Attack</a>
+                    <br>
+                    Source: <a href="https://www.ibm.com/" target="_blank" rel="noopener noreferrer">IBM website</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2">
+					Man-in-the-Middle (MitM)<br><br>
+					<img src="man-in-the-middle-mitm.jpg" style="max-width: 90%;">
+				</td>
+                <td>
+					Common among sites that haven't encrypted their data as it travels from the user to the servers (sites using HTTP instead of HTTPS). The perpetrator intercepts the data as it's being transferred between two parties.
+                    <br><br>
+                    Learn more: <a href="https://www.fortinet.com/resources/cyberglossary/man-in-the-middle-attack" target="_blank" rel="noopener noreferrer">Man-in-the-Middle Attack: Types and Examples</a>
+                    <br>
+                    Source: <a href="https://www.fortinet.com/resources/cyberglossary" target="_blank" rel="noopener noreferrer">FORTINET Glossary</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2"> 
+					Directory Traversal<br><br>
+					<img src="path-traversal-attack.png" style="max-width: 90%;">
+				</td>
+                <td>
+                    This attack targets the web root folder to access unauthorized files or directories outside the targeted folder. The attacker tries to inject movement patterns within the server directory to move up in the hierarchy.
+                    <br><br>
+                    Learn more: <a href="https://www.acunetix.com/websitesecurity/directory-traversal/" target="_blank" rel="noopener noreferrer">What is a Directory Traversal attack?</a>
+                    <br>
+                    Source: <a href="https://www.acunetix.com/blog/" target="_blank" rel="noopener noreferrer">Acunetix Web Security Blog</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2">
+					Phishing<br><br>
+					<img src="phishing.jpg" style="max-width: 90%;">
+				</td>
+                <td>
+                    Uses email, SMS, phone, social media, and social engineering techniques to entice a victim to share sensitive information — such as passwords or account numbers.
+                    <br><br>
+                    Learn more: <a href="https://www.cyber.gov.au/threats/types-threats/phishing" target="_blank" rel="noopener noreferrer">Learn about Phishing attacks</a>
+                    <br>
+                    Source: <a href="https://www.cyber.gov.au/threats" target="_blank" rel="noopener noreferrer">Australian Signals Directorate</a>
+                </td>
+            </tr>
+			<tr>
+                <td class="td2">
+					Spoofing
+					<img src="spoofing.jpeg" style="max-width: 90%;">
+				</td>
+                <td>
+                    A technique through which a cybercriminal disguises themselves as a known or trusted source. 
+                    <br><br>
+                    Learn more: <a href="https://www.malwarebytes.com/spoofing" target="_blank" rel="noopener noreferrer">What is a spoofing attack?</a>
+                    <br>
+                    Source: <a href="https://www.malwarebytes.com/" target="_blank" rel="noopener noreferrer">Malwarebytes</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+	<br>
+
+<!-- html code for task 4 -->
+<button onClick="cat()"> Cat </button>		
+<button onClick="dog()"> Dog </button>		
+<button onClick="frog()"> Frog </button>	
+<br><br>
+<textarea style="resize: none; text-align: center; height: 22px;"; id="textDisplay"></textarea>
+<br>
+<p id="buttonClicked"> </p>
+<br>
+<img id="imageDisplay" style="align-items: center; max-width: 50%;">
+
+
+<!-- html code for taks 5 --->
+
+
+	
+	
+
+	
+</body>
+
+</html>
